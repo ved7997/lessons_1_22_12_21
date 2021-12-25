@@ -1,6 +1,7 @@
 package ru.skypro;
 
 public class Main {
+    public static void main(String[] args){
     //Задание №1
     long lo = 7580;
     int  in = 214748364;
@@ -27,6 +28,9 @@ public class Main {
 
     int ice = 100;
     int countOfice = 2;
+
+    int eggs = 70;
+    int countOfeggs = 4;
 
     double sumSum = ((bananas * countOfBananas) + (milk * countOfMilk) + (ice * countOfice) + (eggs * countOfeggs));
     double sumBrec = sumSum / 1000;
@@ -58,7 +62,7 @@ public class Main {
     double rostKristinaG = zpKristinaPovG - zpKristinaG;
         System.out.println("Маша теперь получает " + zpMashaPov + "рублей. Годовой доход вырос на " + rostMashaG + "рублей");
         System.out.println("Денис теперь получает " + zpDenisPov + "рублей. Годовой доход вырос на " + rostDenisG + "рублей");
-
+        System.out.println("Денис теперь получает " + zpKristinaPov + "рублей. Годовой доход вырос на " + rostKristinaG + "рублей");
 
         }
 }
