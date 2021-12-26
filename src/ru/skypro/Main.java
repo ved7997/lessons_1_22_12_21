@@ -34,6 +34,7 @@ public class Main {
 
     double sumSum = ((bananas * countOfBananas) + (milk * countOfMilk) + (ice * countOfice) + (eggs * countOfeggs));
     double sumBrec = sumSum / 1000;
+                    System.out.println("Вес завтрака " + sumSum + " г");
                     System.out.println("Вес завтрака " + sumBrec + " кг");
 
     //Задание №4
@@ -48,21 +49,25 @@ public class Main {
     double zpMasha = 67760;
     double zpDenis = 83690;
     double zpKristina = 76230;
+
     double zpMashaG = 67760 * 12;
     double zpDenisG = 83690 * 12;
     double zpKristinaG = 76230 * 12;
+
     double zpMashaPov = zpMasha * 1.1;
     double zpDenisPov = zpDenis + (zpDenis * 0.1);
     double zpKristinaPov = zpKristina * 1.1;
+
     double zpMashaPovG = zpMashaPov * 12;
     double zpDenisPovG = zpDenisPov * 12;
     double zpKristinaPovG = zpKristinaPov * 12;
+
     double rostMashaG = zpMashaPovG - zpMashaG;
     double rostDenisG = zpDenisPovG - zpDenisG;
     double rostKristinaG = zpKristinaPovG - zpKristinaG;
         System.out.println("Маша теперь получает " + zpMashaPov + "рублей. Годовой доход вырос на " + rostMashaG + "рублей");
         System.out.println("Денис теперь получает " + zpDenisPov + "рублей. Годовой доход вырос на " + rostDenisG + "рублей");
-        System.out.println("Денис теперь получает " + zpKristinaPov + "рублей. Годовой доход вырос на " + rostKristinaG + "рублей");
+        System.out.println("Кристина теперь получает " + zpKristinaPov + "рублей. Годовой доход вырос на " + rostKristinaG + "рублей");
 
         }
 }
